@@ -47,17 +47,110 @@ const CandidateReport = () => {
                     summary: "يمثل قيمة أكاديمية مضافة للمعهد. يجمع بين التمكن العلمي (دكتوراه) والمرونة النفسية في التعامل مع مستويات الطلاب المختلفة.",
                     details: {
                         behavior: "أظهر 'تطابقاً نفسياً' (Congruence) عالياً؛ لغة جسده هادئة ومتزنة تعكس ثقة بالنفس وتواضعاً. تعامله مع التحديات التقنية أثناء المقابلة عكس صبراً وذكاءً عاطفياً، وهي سمات حيوية لمدرب يتعامل مع فوارق فردية.",
-                        status: "concern",
-                        badge: "Needs Linguistic Development Plan",
-                        score: 65,
-                        summary: "Very charismatic and likable personality. Linguistic level needs boosting (IELTS 5.5), but his ability to win over students is excellent.",
-                        details: {
-                            behavior: "High flexibility and friendliness are major strengths; he will quickly gain students' trust, enhancing retention. Just needs to balance fun with seriousness.",
-                            language: "Current level (B2) is very suitable for foundational levels and general conversation. With professional development, his academic performance will improve quickly.",
-                            vocational: "Ideal for roles requiring interaction and energy. Can teach early levels effectively where encouragement matters more than linguistic complexity.",
-                            adminSuggestion: "Can be hired for foundational levels, leveraging his energy in student activities."
-                        }
+                        language: "لغة إنجليزية معيارية خالية من الأخطاء القواعدية. يستخدم مصطلحات دقيقة. اللكنة واضحة جداً (International Intelligibility) مما يسهل الفهم على المبتدئين.",
+                        vocational: "ذكر صراحة استمتاعه بتدريس 'الطلاب الضعاف' ورؤية تقدمهم (الدقيقة 11:00)، وهذا مؤشر ممتاز لمدرب مهني. التحدي الوحيد هو التأكد من عدم استخدامه أسلوباً أكاديمياً جافاً.",
+                        adminSuggestion: "مرشح قوي لقيادة الفريق الأكاديمي أو تدريس المستويات التأسيسية التي تتطلب صبراً وخبرة."
                     }
+                },
+                {
+                    id: 2,
+                    name: "إسماعيل أحمد سراري",
+                    role: "معلم لغة إنجليزية",
+                    status: "low",
+                    badge: "مخاطر سلوكية",
+                    score: 55,
+                    summary: "رغم خبرته الميدانية، إلا أن موقفه السلبي وشكواه المستمرة يشكلان تحدياً لبيئة العمل الإيجابية.",
+                    details: {
+                        behavior: "أظهر نمطاً من 'لعب دور الضحية' (Victim Mentality). استغرق جزءاً من المقابلة في الشكوى من بيئة عمله السابقة. هذا السلوك 'الشاكي' (Complaining Attitude) يحتاج لإدارة حذرة.",
+                        language: "لغته الإنجليزية مقبولة تواصلياً، لكنها لا تشفع له أمام الملاحظات السلوكية.",
+                        vocational: "يفتقر للنضج المهني المطلوب للتعامل مع الكبار. تركيزه على السلبيات بدلاً من الحلول يجعله أقل ملاءمة.",
+                        adminSuggestion: "خيار أخير. يمكن النظر فيه فقط في حال الحاجة الماسة، مع وضعه تحت فترة تجربة صارمة."
+                    }
+                },
+                {
+                    id: 3,
+                    name: "أحمد المرحوم",
+                    role: "معلم لغة إنجليزية",
+                    status: "concern",
+                    badge: "يحتاج خطة تطوير لغوي",
+                    score: 65,
+                    summary: "شخصية كاريزمية ومحبوبة جداً. مستواه اللغوي يحتاج لتعزيز (IELTS 5.5) لكن قدرته على كسب الطلاب ممتازة.",
+                    details: {
+                        behavior: "المرونة العالية والود من أبرز نقاط قوته؛ سيكسب ثقة الطلاب بسرعة مما يعزز استمراريتهم في الدورة. يحتاج فقط للموازنة بين المرح والجدية.",
+                        language: "مستواه الحالي (B2) مناسب جداً للمستويات التأسيسية والمحادثة العامة. مع دورات تطوير مهني سيتحسن أداؤه الأكاديمي بسرعة.",
+                        vocational: "مثالي للأدوار التي تتطلب تفاعلاً ونشاطاً. يمكنه تدريس المستويات الأولى ببراعة حيث التركيز على التشجيع أكثر من التعقيدات اللغوية.",
+                        adminSuggestion: "يمكن توظيفه للمستويات التأسيسية، مع الاستفادة من طاقته في الأنشطة الطلابية."
+                    }
+                }
+            ]
+        },
+        en: {
+            instituteName: "Black Gold Higher Training Institute",
+            instituteAbbr: "BGTI",
+            reportTitle: "Instructors Competency Dashboard - Technical & Behavioral Analysis",
+            disclaimer: "Disclaimer: This analysis is based on documented video interviews, body language interpretation, and linguistic audits. These technical insights are provided to support decision-making. The final hiring decision rests solely with the Institute Administration.",
+            switchBtn: "العربية",
+            sections: {
+                comparison: "Comparative Performance Indicators",
+                details: "Deep Dive Analysis (Technical & Behavioral)",
+                videoSource: "Analyzed from Video Recordings"
+            },
+            labels: {
+                expand: "View Deep Dive",
+                collapse: "Hide Details",
+                score: "Alignment Score",
+                deepDive: "Qualitative Candidate Analysis",
+                psychometrics: "Behavioral & Psychological Profiling",
+                linguistics: "Linguistic Audit & Errors",
+                vocational: "Adult Vocational Suitability",
+                adminNote: "Recommendation for HR"
+            },
+            candidates: [
+                {
+                    id: 1,
+                    name: "Dr. Sharaf Eldin Osman",
+                    role: "Vocational Instructor (PhD)",
+                    status: "high",
+                    badge: "High Alignment with Standards",
+                    score: 96,
+                    summary: "Adds academic prestige to the institute. Combines scientific mastery (PhD) with psychological resilience suitable for diverse learner levels.",
+                    details: {
+                        behavior: "Demonstrated high psychological congruence; calm, balanced body language reflecting confidence and humility. His patience with technical lags indicates emotional intelligence, crucial for handling individual differences.",
+                        language: "Standard, error-free English. Uses precise terminology. Accent is highly intelligible internationally, facilitating understanding for beginners.",
+                        vocational: "Explicitly mentioned enjoying teaching 'weak students' and seeing their progress (11:00). This is a prime indicator of a vocational instructor. The only challenge is ensuring he avoids dry academic lecturing.",
+                        adminSuggestion: "Strong candidate for Academic Lead or foundational levels requiring patience and expertise."
+                    }
+                },
+                {
+                    id: 2,
+                    name: "Ismail Ahmed Sarary",
+                    role: "English Teacher",
+                    status: "low",
+                    badge: "Behavioral Concerns",
+                    score: 55,
+                    summary: "Despite field experience, his negative attitude and complaining pose a challenge to a positive work culture.",
+                    details: {
+                        behavior: "Displayed a pattern of 'Victim Mentality'. Spent part of the interview complaining about his previous work environment. This 'Complaining Attitude' requires careful management.",
+                        language: "English is communicatively acceptable, but does not outweigh the behavioral observations.",
+                        vocational: "Lacks the professional maturity required for adult training. His focus on negatives rather than solutions makes him less suitable.",
+                        adminSuggestion: "Last resort option. Consider only if urgent, and place under strict probation."
+                    }
+                },
+                {
+                    id: 3,
+                    name: "Ahmed Al Marhoom",
+                    role: "English Teacher",
+                    status: "concern",
+                    badge: "Needs Linguistic Development Plan",
+                    score: 65,
+                    summary: "Very charismatic and likable personality. Linguistic level needs boosting (IELTS 5.5), but his ability to win over students is excellent.",
+                    details: {
+                        behavior: "High flexibility and friendliness are major strengths; he will quickly gain students' trust, enhancing retention. Just needs to balance fun with seriousness.",
+                        language: "Current level (B2) is very suitable for foundational levels and general conversation. With professional development, his academic performance will improve quickly.",
+                        vocational: "Ideal for roles requiring interaction and energy. Can teach early levels effectively where encouragement matters more than linguistic complexity.",
+                        adminSuggestion: "Can be hired for foundational levels, leveraging his energy in student activities."
+                    }
+                }
             ]
         }
     };
