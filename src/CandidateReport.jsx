@@ -53,21 +53,6 @@ const CandidateReport = () => {
                     }
                 },
                 {
-                    id: 2,
-                    name: "إسماعيل أحمد سراري",
-                    role: "معلم لغة إنجليزية",
-                    status: "low",
-                    badge: "مخاطر سلوكية",
-                    score: 55,
-                    summary: "رغم خبرته الميدانية، إلا أن موقفه السلبي وشكواه المستمرة يشكلان تحدياً لبيئة العمل الإيجابية.",
-                    details: {
-                        behavior: "أظهر نمطاً من 'لعب دور الضحية' (Victim Mentality). استغرق جزءاً من المقابلة في الشكوى من بيئة عمله السابقة. هذا السلوك 'الشاكي' (Complaining Attitude) يحتاج لإدارة حذرة.",
-                        language: "لغته الإنجليزية مقبولة تواصلياً، لكنها لا تشفع له أمام الملاحظات السلوكية.",
-                        vocational: "يفتقر للنضج المهني المطلوب للتعامل مع الكبار. تركيزه على السلبيات بدلاً من الحلول يجعله أقل ملاءمة.",
-                        adminSuggestion: "خيار أخير. يمكن النظر فيه فقط في حال الحاجة الماسة، مع وضعه تحت فترة تجربة صارمة."
-                    }
-                },
-                {
                     id: 3,
                     name: "أحمد المرحوم",
                     role: "معلم لغة إنجليزية",
@@ -80,6 +65,21 @@ const CandidateReport = () => {
                         language: "مستواه الحالي (B2) مناسب جداً للمستويات التأسيسية والمحادثة العامة. مع دورات تطوير مهني سيتحسن أداؤه الأكاديمي بسرعة.",
                         vocational: "مثالي للأدوار التي تتطلب تفاعلاً ونشاطاً. يمكنه تدريس المستويات الأولى ببراعة حيث التركيز على التشجيع أكثر من التعقيدات اللغوية.",
                         adminSuggestion: "يمكن توظيفه للمستويات التأسيسية، مع الاستفادة من طاقته في الأنشطة الطلابية."
+                    }
+                },
+                {
+                    id: 2,
+                    name: "إسماعيل أحمد سراري",
+                    role: "معلم لغة إنجليزية",
+                    status: "low",
+                    badge: "مخاطر سلوكية",
+                    score: 55,
+                    summary: "رغم خبرته الميدانية، إلا أن تركيزه على التحديات السابقة قد يؤثر على إيجابية بيئة العمل.",
+                    details: {
+                        behavior: "تحدث بإسهاب عن تحديات بيئة عمله السابقة. رغم أهمية الشفافية، إلا أن التركيز على الحلول والمستقبل بدلاً من المشكلات السابقة يعد مؤشراً مهنياً أفضل لضمان بيئة عمل إيجابية.",
+                        language: "لغته الإنجليزية مقبولة تواصلياً، لكنها تحتاج لمزيد من الصقل لتتوافق مع المعايير الأكاديمية.",
+                        vocational: "يظهر حماساً للتدريس، لكنه يحتاج لتوجيه لتبني عقلية أكثر احترافية وتركيزاً على التطوير المستمر.",
+                        adminSuggestion: "يمكن النظر في توظيفه في حال الحاجة، مع وضعه تحت فترة تجربة لتقييم مدى ملاءمته لثقافة المعهد."
                     }
                 }
             ]
@@ -122,21 +122,6 @@ const CandidateReport = () => {
                     }
                 },
                 {
-                    id: 2,
-                    name: "Ismail Ahmed Sarary",
-                    role: "English Teacher",
-                    status: "low",
-                    badge: "Behavioral Concerns",
-                    score: 55,
-                    summary: "Despite field experience, his negative attitude and complaining pose a challenge to a positive work culture.",
-                    details: {
-                        behavior: "Displayed a pattern of 'Victim Mentality'. Spent part of the interview complaining about his previous work environment. This 'Complaining Attitude' requires careful management.",
-                        language: "English is communicatively acceptable, but does not outweigh the behavioral observations.",
-                        vocational: "Lacks the professional maturity required for adult training. His focus on negatives rather than solutions makes him less suitable.",
-                        adminSuggestion: "Last resort option. Consider only if urgent, and place under strict probation."
-                    }
-                },
-                {
                     id: 3,
                     name: "Ahmed Al Marhoom",
                     role: "English Teacher",
@@ -149,6 +134,21 @@ const CandidateReport = () => {
                         language: "Current level (B2) is very suitable for foundational levels and general conversation. With professional development, his academic performance will improve quickly.",
                         vocational: "Ideal for roles requiring interaction and energy. Can teach early levels effectively where encouragement matters more than linguistic complexity.",
                         adminSuggestion: "Can be hired for foundational levels, leveraging his energy in student activities."
+                    }
+                },
+                {
+                    id: 2,
+                    name: "Ismail Ahmed Sarary",
+                    role: "English Teacher",
+                    status: "low",
+                    badge: "Behavioral Concerns",
+                    score: 55,
+                    summary: "Despite field experience, his focus on past challenges may impact the positive work culture.",
+                    details: {
+                        behavior: "Spent a significant part of the interview discussing challenges in his previous workplace. While transparency is appreciated, a more solution-oriented approach would be preferred to ensure a positive team dynamic.",
+                        language: "English is communicatively acceptable, but requires refinement to meet academic standards.",
+                        vocational: "Shows enthusiasm for teaching but needs guidance to adopt a more professional, growth-oriented mindset.",
+                        adminSuggestion: "Consider for hire if necessary, but place under probation to assess cultural fit."
                     }
                 }
             ]
